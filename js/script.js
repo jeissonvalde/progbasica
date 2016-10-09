@@ -19,7 +19,7 @@ function darpeso(){
 
 	texto = document.getElementById("text");
 	mipeso = document.getElementById("peso");
-	planeta = document.getElementById("pla");
+	planeta = document.getElementById("pla").value;
 	if (planeta == 1) {
 		peso_final = mipeso * gravedades.marte / gravedades.tierra;
 	}
