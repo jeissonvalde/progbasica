@@ -13,5 +13,5 @@ function inicio() {
 	peso_final = mipeso * gravedades.marte / gravedades.tierra;
 	peso_final = parseInt(peso_final);
 
-	document.write(peso_final);
+	document.write("Tu peso en marte es " + peso_final + " Kg");
 }
