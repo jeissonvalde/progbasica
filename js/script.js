@@ -28,10 +28,6 @@ function darpeso(peso_final){
 	}
 	peso_final = parseInt(peso_final);
 
-<<<<<<< HEAD
-	texto.innerHTML = "Tu peso en marte es " + num + " Kg.";
-=======
 	texto.innerHTML = "Tu peso en marte es " + peso_final + " Kg";
-	
->>>>>>> origin/gh-pages
+
 }
