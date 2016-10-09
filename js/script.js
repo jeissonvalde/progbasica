@@ -4,7 +4,7 @@ var gravedades = {
 	jupiter: 24.8
 };
 
-var mipeso, planeta;
+var mipeso, planeta, texto;
 var peso_final;
 
 function inicio() {
@@ -26,5 +26,7 @@ function inicio() {
 }
 
 function darpeso (){
-	document.write("Tu peso en marte es " + peso_final + " Kg");
+	texto = document.getElementById("text");
+
+	texto.write("Tu peso en marte es " + peso_final + " Kg");
 }
