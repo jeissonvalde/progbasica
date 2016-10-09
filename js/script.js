@@ -4,11 +4,12 @@ var gravedades = {
 	jupiter: 24.8
 };
 
-var mipeso = 71;
+var mipeso;
 var peso_final;
 
 function inicio() {
 
+	mipeso = prompt("Escribe tu peso por favor.");
 	peso_final = mipeso * gravedades.marte / gravedades.tierra;
 	peso_final = parseInt(peso_final);
 
