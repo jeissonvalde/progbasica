@@ -29,4 +29,5 @@ function darpeso(){
 	peso_final = parseInt(peso_final);
 
 	texto.innerHTML = "Tu peso en marte es " + peso_final + " Kg";
+	
 }
