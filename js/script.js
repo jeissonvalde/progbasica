@@ -21,11 +21,11 @@ function inicio() {
 
 	btn = document.getElementById("act");
 
-	btn.addEventListener("click", darpeso);
+	btn.addEventListener("click", "darpeso(peso_final)");
 	
 }
 
-function darpeso (peso_final){
+function darpeso(peso_final){
 	texto = document.getElementById("text");
 
 	texto.innerHTML = "Tu peso en marte es " + peso_final + " Kg";
