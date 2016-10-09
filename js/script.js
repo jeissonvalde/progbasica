@@ -25,10 +25,10 @@ function inicio() {
 	
 }
 
-function darpeso(peso_final){
+inicio.prototype.darpeso = function (peso_final){
 
 	var num = peso_final;
 	texto = document.getElementById("text");
 
-	texto.innerHTML = "Tu peso en marte es " + num + " Kg";
+	texto.innerHTML = "Tu peso en marte es " + peso_final + " Kg";
 }
