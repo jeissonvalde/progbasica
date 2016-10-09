@@ -19,7 +19,7 @@ function inicio() {
 	}
 	peso_final = parseInt(peso_final);
 
-	document.getElementById("act");
+	btn = document.getElementById("act");
 
 	btn.addEventListener("click", darpeso);
 	
