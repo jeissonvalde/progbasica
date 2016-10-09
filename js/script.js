@@ -20,10 +20,10 @@ function darpeso(){
 	texto = document.getElementById("text");
 	mipeso = document.getElementById("peso");
 	planeta = document.getElementById("pla");
-	if (planeta == "marte") {
+	if (planeta == 1) {
 		peso_final = mipeso * gravedades.marte / gravedades.tierra;
 	}
-	if (planeta == "júpiter") {
+	if (planeta == 2) {
 		peso_final = mipeso * gravedades.jupiter / gravedades.tierra;
 	}
 	peso_final = parseInt(peso_final);
