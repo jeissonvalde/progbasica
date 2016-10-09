@@ -9,8 +9,8 @@ var peso_final;
 
 function inicio() {
 
-	mipeso = prompt("Escribe tu peso por favor.");
-	planeta = prompt("Escribe el planeta que quieres conocer tu peso \n (en minúsculas ej: marte o júpiter)");
+	mipeso = document.getElementById("peso");
+	planeta = document.getElementById("pla");
 	if (planeta == "marte") {
 		peso_final = mipeso * gravedades.marte / gravedades.tierra;
 	}
@@ -19,5 +19,10 @@ function inicio() {
 	}
 	peso_final = parseInt(peso_final);
 
+	addEventListener("click", darpeso);
+	
+}
+
+function darpeso (){
 	document.write("Tu peso en marte es " + peso_final + " Kg");
 }
