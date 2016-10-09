@@ -28,5 +28,5 @@ function inicio() {
 function darpeso (){
 	texto = document.getElementById("text");
 
-	texto.innerHTML("Tu peso en marte es " + peso_final + " Kg");
+	texto.innerHTML = "Tu peso en marte es " + peso_final + " Kg";
 }
